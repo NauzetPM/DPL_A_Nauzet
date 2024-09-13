@@ -10,6 +10,7 @@ Comprobar que estas en la rama
 Se crea el archivo
 4. git add .
 5. git commit -m "Primer commit en la rama"
-6. git push
+Configurar rama con el push
+6. git push --set-upstream origin v0.2
 
 Se crea un git ignore y un archivo privado txt
