@@ -32,6 +32,18 @@ Se crea un directorio privada con un archivo dentro
 9. git commit -m "Se crea carpeta privada"
 10. git push
 
+### Comandos 3ºParte
+
+Se crea el archivo 1.txt
+
+1. git add .
+2. git commit -m "Se sube archivo 1.txt"
+3. git push
+
+![](/Fotos/3.png)
+
+4. git tag v0.1 -m "Primera versión"
+
 
 
 ### Tabla compañeros
