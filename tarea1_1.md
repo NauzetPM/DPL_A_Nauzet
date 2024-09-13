@@ -16,4 +16,10 @@ Crear gitignore
 2. git add .
 3. git commit -m "Se sube gitignore"
 4. git push
-5. 
+Se crea un archivo privada.txt
+
+![](/Fotos/1.png)
+
+5. git add .
+6. git commit -m "Intento de subir privada.txt"
+7. git push
