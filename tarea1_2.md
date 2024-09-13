@@ -1,0 +1,15 @@
+## Tarea 1.2
+### Comandos
+Los comandos utilizados
+Crear rama
+1. git branch v0.2
+Moverse a la rama
+2. git checkout v0.2
+Comprobar que estas en la rama
+3. git status
+Se crea el archivo
+4. git add .
+5. git commit -m "Primer commit en la rama"
+6. git push
+
+Se crea un git ignore y un archivo privado txt

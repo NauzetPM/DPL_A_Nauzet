@@ -1,4 +1,4 @@
-## Tarea 1
+## Tarea 1.1
 ### Comandos 1ºParte
 Los comandos utilizados
 1. git clone https://github.com/NauzetPM/DPL_A_Nauzet
@@ -43,6 +43,7 @@ Se crea el archivo 1.txt
 ![](/Fotos/3.png)
 
 4. git tag v0.1 -m "Primera versión"
+5. git push --tags
 
 
 
