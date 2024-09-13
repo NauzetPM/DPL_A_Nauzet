@@ -23,3 +23,21 @@ Se crea un archivo privada.txt
 5. git add .
 6. git commit -m "Intento de subir privada.txt"
 7. git push
+
+Se crea un directorio privada con un archivo dentro
+
+![](/Fotos/2.png)
+
+8. git add .
+9. git commit -m "Se crea carpeta privada"
+10. git push
+
+
+
+### Tabla compañeros
+
+| Nombre | GitHub | 
+|----------|----------|
+| Row 1    | Cell 2   |
+| Row 2    | Cell 5   |
+| Row 3    | Cell 8   |
