@@ -11,7 +11,9 @@ Los comandos utilizados
 Se crea un git ignore y un archivo privado txt
 
 ### Comandos 2ºParte
-1. 
-2. 
-3. 
-4. 
+Crear gitignore
+1. touch . gitignore
+2. git add .
+3. git commit -m "Se sube gitignore"
+4. git push
+5. 
