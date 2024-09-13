@@ -28,4 +28,12 @@ Juntar ramas
 17. git merge v0.2
 ![](/Fotos/5.png)
 ![](/Fotos/6.png)
+Crear Tag
+18. git tag v0.2 -m "Segunda versión"
+19. git push --tags
+Borrar rama
+20. git branch -d v0.2
 
+### Creacion de una organización
+Se crea una organización y se crean los equipos 
+![](/Fotos/7.png)
