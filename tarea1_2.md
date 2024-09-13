@@ -17,5 +17,9 @@ Moverse a main
 Juntar ramas
 8. git merge v0.2
 ![](/Fotos/4.png)
+9. git add .
+10. git commit -m"Se pone HOla en 1.txt"
+11. git push
+12. git checkout v0.2
 
 Se crea un git ignore y un archivo privado txt
