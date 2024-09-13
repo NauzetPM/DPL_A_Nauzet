@@ -12,5 +12,10 @@ Se crea el archivo
 5. git commit -m "Primer commit en la rama"
 Configurar rama con el push
 6. git push --set-upstream origin v0.2
+Moverse a main
+7. git checkout main
+Juntar ramas
+8. git merge v0.2
+![](/Fotos/4.png)
 
 Se crea un git ignore y un archivo privado txt
