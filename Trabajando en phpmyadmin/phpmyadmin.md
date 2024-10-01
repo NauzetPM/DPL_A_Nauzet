@@ -9,6 +9,17 @@ Si acabas de terminar la creacion de una base de datos te abrira un form para cr
 aqui un ejeplo de conexión a base de datos desde php
 ```
 <?php
+$conn = mysql_connect('localhost','dev','mysql','PRUEBAS')
 
+echo "<pre>";
+print_r($conn);
+
+$insert  = "insert into users (name, email) values ('alex','alex@domingo.es')";
+
+$return = mysql_query ($conn, $insert );
+
+print_r(($return));
+
+mysql_close($conn);
 
 ```
