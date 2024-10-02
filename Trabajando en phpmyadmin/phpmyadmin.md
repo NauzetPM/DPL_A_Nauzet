@@ -19,18 +19,14 @@ Si acabas de terminar la creacion de una base de datos te abrira un form para cr
 ### Conexión de una base de datos
 aqui un ejeplo de conexión a base de datos desde php
 ```
-<?php
-$conn = mysql_connect('localhost','dev','mysql','PRUEBAS')
-
-echo "<pre>";
-print_r($conn);
-
-$insert  = "insert into users (name, email) values ('alex','alex@domingo.es')";
-
-$return = mysql_query ($conn, $insert );
-
-print_r(($return));
-
-mysql_close($conn);
+function dbConnect() {
+    $conn = new mysqli('localhost', 'Nauzet', '1q2w3e4r', 'prueba');
+    if ($conn->connect_error) {
+        die('Conexión fallida: ' . $conn->connect_error);
+    }
+    return $conn;
+}
 
 ```
+En este caso localhost es la maquina donde esta la base de dato Nauzet el usuario 
+usado, 1q2w3e4r la contraseña de usuario y prueba la base de datos usada
