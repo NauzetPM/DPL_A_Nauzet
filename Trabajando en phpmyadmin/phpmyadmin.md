@@ -18,7 +18,7 @@ Si acabas de terminar la creacion de una base de datos te abrira un form para cr
 
 ### Conexión de una base de datos
 aqui un ejeplo de conexión a base de datos desde php
-```
+```php
 function dbConnect() {
     $conn = new mysqli('localhost', 'Nauzet', '1q2w3e4r', 'prueba');
     if ($conn->connect_error) {

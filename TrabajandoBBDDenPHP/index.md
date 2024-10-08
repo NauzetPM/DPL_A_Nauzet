@@ -1,7 +1,7 @@
 ## Insertar, leer, modificar y borrar registros de la base de datos
 ### Insertar
 Ejemplo de codigo:
-```
+```php
 // Función para insertar un usuario
 function insertUser($nombre) {
     $conn = dbConnect();
@@ -27,7 +27,7 @@ function insertUser($nombre) {
 ### Leer
 
 Ejemplo de codigo:
-```
+```php
 // Función para seleccionar y mostrar usuarios
 function selectUsers() {
     $conn = dbConnect();
@@ -52,7 +52,7 @@ function selectUsers() {
 ### Modificar
 
 Ejemplo de codigo:
-```
+```php
 // Función para actualizar un usuario
 function updateUser($id, $nuevoNombre) {
     $conn = dbConnect();
@@ -78,7 +78,7 @@ function updateUser($id, $nuevoNombre) {
 ### Borrar
 
 Ejemplo de codigo:
-```
+```php
 // Función para eliminar un usuario
 function deleteUser($id) {
     $conn = dbConnect();

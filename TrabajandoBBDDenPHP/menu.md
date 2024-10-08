@@ -1,7 +1,7 @@
 ## Menu
 ### php
 Codigo para hacer el menu
-```
+```php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['insert'])) {
         $nombre = $_POST['nombre'];
@@ -23,8 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 ### html
 Codigo para hacer el menu
-```
-
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
