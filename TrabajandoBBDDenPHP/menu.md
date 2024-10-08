@@ -1,6 +1,7 @@
 ## Menu
 ### php
 Codigo para hacer el menu
+Se usaran los metodos usados en el index.md (tarea anterior)
 ```php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['insert'])) {
