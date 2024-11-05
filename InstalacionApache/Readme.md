@@ -41,6 +41,8 @@ La arquitectura web suele estar compuesta por tres capas principales:
 ```bash
    sudo apt-get update
 ```
+---
+
 # Instrucciones para instalar y configurar Apache y Tomcat en Ubuntu
 
 ## 1. Instalar Apache
@@ -50,6 +52,9 @@ Para instalar Apache en Ubuntu, utiliza el siguiente comando:
 ```bash
 sudo apt-get install apache2
 ```
+
+---
+
 ### Verificar la instalación
 
 Apache debería comenzar a ejecutarse automáticamente. Para verificar que Apache está instalado correctamente, puedes comprobar el estado del servicio:
@@ -73,6 +78,8 @@ Para verificar que Apache está escuchando en el puerto 80, usa el siguiente com
 sudo netstat -tuln | grep :80
 ```
 
+---
+
 ## 3. Comprobar que Apache está funcionando desde el navegador
 
     Abre un navegador web y escribe la dirección IP del servidor o localhost:
@@ -81,6 +88,8 @@ sudo netstat -tuln | grep :80
 http://localhost
 ```
 Deberías ver la página predeterminada de Apache, lo que indica que el servidor está funcionando correctamente.
+
+---
 
 # 4. Cambiar el puerto por el cual está escuchando Apache
 ## 4.1 Editar el archivo de configuración de Apache
@@ -130,6 +139,9 @@ Abre el navegador y accede a la dirección:
 ```bash
 http://localhost:82
 ```
+
+---
+
 # 5. Instalar el servidor de aplicaciones Tomcat
 ## 5.1 Instalar Tomcat
 
