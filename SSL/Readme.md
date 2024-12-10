@@ -115,3 +115,5 @@ Para verificar la respuesta del servidor desde la terminal, puedes usar `curl`:
 
 ```bash
 curl -I https://prueba1.com
+```
+
